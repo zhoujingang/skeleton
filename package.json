@@ -1,6 +1,6 @@
 {
   "name": "page-skt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "骨架屏生成工具",
   "main": "index.js",
   "bin": {
