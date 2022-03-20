@@ -1,4 +1,3 @@
-
 const fs = require('fs-extra');
 const path = require('path');
 const Puppeteer = require('./lib/pupeteer');
@@ -41,10 +40,11 @@ class Skeleton {
         const browser = new Puppeteer(config);
         await browser.launch();
         const page = await browser.newPage(config.url, config.headers);
-        const html = await page.evaluate(drawSkeleton, config);
+        const { html, reactHtml} = await page.evaluate(drawSkeleton, config);
         const $ = cheerio.load(defaultHtml);
         $(this.root).html(html);
-        await fs.writeFileSync(path.resolve(process.cwd(), './index.html'), $.root().html())
+        await fs.writeFileSync(path.resolve(process.cwd(), './index.html'), $.root().html());
+        await fs.writeFileSync(path.resolve(process.cwd(), './index.React'), reactHtml);
     }
 
 }

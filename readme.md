@@ -1,6 +1,12 @@
 一款自动生存骨架屏的工具
 
-## Install
+## Yarn Install (推荐)
+
+```bash
+$ yarn global add page-skt
+```
+
+## Npm Install
 
 ```bash
 $ npm install page-skt -g
@@ -26,7 +32,11 @@ $ skt init
     device: 'iphone',        // 默认设备类型
     style: `animation: opacity 1s linear infinite;`, // 骨架动画样式
     background: '#eee', // 骨架填充色
-    output: '', //输出路径。默认当前执行目录
+    output: '', // 输出路径。默认当前执行目录
+    cutHeight: 0, // 减少页面高度
+    ignoreBlockByClass: [], // 忽略模块（类名）
+    ignoreDomByClass: [], // 忽略单节点（类名匹配）
+    ignoreDomById: ['header'] // 忽略单节点 （id匹配）
     // headers: {  // 配置 header
     //     cookies: [{ // 如果页面需要登陆态，设置 cookie
     //         'name': 'pt_pin',
