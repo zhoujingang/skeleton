@@ -1,6 +1,6 @@
 module.exports = `
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="font-size: 18.75px;">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">

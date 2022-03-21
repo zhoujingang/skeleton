@@ -1,4 +1,4 @@
-一款自动生存骨架屏的工具
+一款自动生成骨架屏的工具
 
 ## Yarn Install (推荐)
 
@@ -55,4 +55,4 @@ Step2 执行命令：
 ```bash
 $ skt start
 ```
-在当前目录生成 index.html 骨架屏
+在当前目录生成 index.html, index.React 骨架屏

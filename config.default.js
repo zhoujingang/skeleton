@@ -10,7 +10,7 @@ module.exports = {
     style: `animation: opacity 1s linear infinite;`,
     background: '#eee',
     output: '',
-    cutHeight: 0,
+    cutHeight: 0, // 裁剪页面高度，
     ignoreBlockByClass: [], // 忽略模块（类名）
     ignoreDomByClass: [], // 忽略单节点（类名匹配）
     ignoreDomById: ['header'], // 忽略单节点 （id匹配）
