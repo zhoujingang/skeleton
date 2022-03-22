@@ -1,5 +1,4 @@
 一款自动生成骨架屏的工具
-
 ## Yarn Install (推荐)
 
 ```bash
@@ -33,7 +32,7 @@ $ skt init
     style: `animation: opacity 1s linear infinite;`, // 骨架动画样式
     background: '#eee', // 骨架填充色
     output: '', // 输出路径。默认当前执行目录
-    cutHeight: 0, // 减少页面高度
+    cutHeight: 0, // 裁剪页面高度，骨架屏整体上移
     ignoreBlockByClass: [], // 忽略模块（类名）
     ignoreDomByClass: [], // 忽略单节点（类名匹配）
     ignoreDomById: ['header'] // 忽略单节点 （id匹配）
@@ -55,4 +54,4 @@ Step2 执行命令：
 ```bash
 $ skt start
 ```
-在当前目录生成 index.html, index.React 骨架屏
+在当前目录生成 index.html 文件骨架屏和 index.React 骨架屏
