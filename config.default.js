@@ -17,11 +17,11 @@ module.exports = {
     // headers: { 
     //     cookies: [{ // 设置 cookie
     //         'name': 'pt_pin',
-    //         domain: '.jd.com',
+    //         domain: '.test.com',
     //         'value': '%E6%88%91%E5%90%83%E5%B0%8F%E8%98%91%E8%8F%87635'
     //     }, {
     //         'name': 'pt_key',
-    //         domain: '.jd.com',
+    //         domain: '.test.com',
     //         'value': 'AAJiEzi8AECSC83BcZNPs3bji3v7LxJVFpr-GMBV9dXDfSCtDK64orA4FUQr9QopjF23IDsERxPlQcTBCEanx8p3JNhcJ2BY'
     //     }],
     // }

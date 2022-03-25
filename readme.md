@@ -17,7 +17,7 @@ Step1 执行命令：
 ```bash
 $ skt init
 ```
-在当前目录生成 config.js
+在当前目录生成 config.js 配置文件
 ```js
 {
     url: 'http://www.baidu.com', // 页面地址
@@ -54,4 +54,7 @@ Step2 执行命令：
 ```bash
 $ skt start
 ```
-在当前目录生成 index.html 文件骨架屏和 index.React 骨架屏
+在当前目录分别生成：  
+ * index.html 文件骨架屏
+ * index.React 文件骨架屏
+ * index.Vue 文件骨架屏
